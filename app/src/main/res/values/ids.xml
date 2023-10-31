@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="exercise_type_all_btn" type="id"/>
+    <item name="exercise_type_selected_btn" type="id"/>
+    <item name="number_input_edit_text" type="id"/>
+
+    <item name="question_text_view" type="id"/>
+    <item name="question_text_view1" type="id"/>
+    <item name="question_text_view2" type="id"/>
+
+    <item name="answer_text_view" type="id"/>
+    <item name="answer_text_view1" type="id"/>
+    <item name="answer_text_view2" type="id"/>
+
+    <item name="result_text_view" type="id"/>
+    <item name="result_text_view1" type="id"/>
+    <item name="result_text_view2" type="id"/>
+</resources>

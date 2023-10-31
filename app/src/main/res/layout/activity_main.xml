@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number_input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exercise_type_all_btn"
+        android:layout_marginBottom="16dp"
+        android:hint="Введите число от 2 до 9"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/exercise_type_all_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Упражнение для всех чисел"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/exercise_type_selected_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Упражнение выборочно"
+        android:layout_below="@id/exercise_type_all_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:srcCompat="@drawable/image_1" />
+
+</RelativeLayout>
